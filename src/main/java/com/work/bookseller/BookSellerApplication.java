@@ -9,8 +9,6 @@ import org.springframework.data.jpa.repository.config.EnableJpaAuditing;
 
 @SpringBootApplication
 //@PropertySource("classpath:application-${spring.profiles.active:default}.properties")
-//@PropertySource("classpath:application-${spring.profiles.active:default}.properties")
-//@PropertySource("classpath:application-${spring.profiles.active:default}.properties")
 @Profile("default")
 @EnableJpaAuditing
 public class BookSellerApplication {
