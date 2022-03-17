@@ -1,5 +1,5 @@
 {
-  "name": "sha-book-seller",
+  "name": "springboot-book-seller",
   "buildpacks": [
     {
       "url": "heroku/gradle"
